@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Quicksand:wght@400;700&display=swap");
+html {
+  font-size: 18px;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #4C7B9D;
+  background-image: url(../images/ciudad.png);
+  background-size: 100vw;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-family: "Lobster", cursive;
+  text-shadow: 1px 1px 3px black;
+  background-color: #DF3448;
+  color: white;
+  margin: 0px;
+  text-align: center;
+  padding: 12px;
+  width: 100%;
+  position: fixed;
+}
+
+.div {
+  background-color: #ACDADC;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 500px;
+  margin-top: 100px;
+  border-radius: 2%;
+  box-shadow: inset 5px 5px 15px gray;
+  padding: 70px 35px 180px 35px;
+}
+
+.div:after {
+  content: " ";
+  position: absolute;
+  top: calc(210% - 100px);
+  left: calc(48% - 125px);
+  width: 300px;
+  height: 700px;
+  display: inline-block;
+  background-image: url(../images/gato.png);
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 300px auto;
+}
+
+h2 {
+  text-align: center;
+  color: #DF3448;
+  font-family: "Lobster", cursive;
+  text-shadow: 1px 1px 3px gray;
+  font-size: 2em;
+}
+
+p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: #213557;
+  font-size: 1.1em;
+}
+
+.pcentro {
+  text-align: center;
+  font-size: 1.5em;
+  padding: 0px 50px;
+  font-style: italic;
+}
+
+span {
+  font-family: "Lobster", cursive;
+  font-size: 2em;
+}/*# sourceMappingURL=estilos.css.map */
